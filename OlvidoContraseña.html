@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css-estilos.css">
+    <title>NuestrosPasteles</title>
+</head>
+
+<body>
+    <section>
+        <h4><a href="IngresoAdmin.html" target="_self">Ingreso usuario</a></h4>
+    </section>
+    <header>
+        <h2 style="text-align: center">Ingreso a consumibles e insumos</h1>
+            <hr>
+    </header>
+    <section>
+        <form action="" id="form3" method="post" class="formdatoscliente">
+            <label for="nombre">Nombre usuario: (Tal y como te registraste)</label><br>
+            <input type="text" id="nombreuser" name="nombreuser"><br><br>
+
+            <label for="nombre">Correo electrónico:</label><br>
+            <input type="email" id="correo" name="correo"><br><br>
+
+            <label for="roles">Indica tu rol:</label><br>
+            <input list="rol">
+            <datalist id="rol">
+            <option value="Usuario1">
+            <option value="Usuario2">
+            <option value="Usuario3">
+            </datalist><br><br>
+
+            <label for="nombre">Indica el código de seguridad:</label><br>
+            <input type="number" id="codsecu" name="codsecu"><br><br>
+
+            <input type="button" id="boton1" name="boton1" value="Enviar" onclick="alert('Revisa tu correo y confirma el código de seguridad');"><br><br>
+            <input type="reset">
+
+        </form>
+    </section>
+</body>
+
+</html>

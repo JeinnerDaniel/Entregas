@@ -1,0 +1,183 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    font-size: 25px;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(238, 242, 238);
+}
+
+.logo {
+    position: relative;
+    top: 10px;
+    bottom: 30px;
+    left: 40%;
+    width: 20%;
+    height: 20%;
+}
+
+.subhome,
+.hist,
+.pedido,
+.pago,
+.vista {
+    text-align: center;
+}
+
+.tabla {
+    text-align: center;
+    width: 100%;
+}
+
+.di,
+.tel,
+.hor {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.di1,
+.tel1,
+.hor1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+}
+
+.sub,
+.subpastel {
+    font-size: 30px;
+    text-align: center;
+}
+
+.t1 {
+    padding-bottom: 2%;
+    width: 35%;
+}
+
+.t1img,
+.t2img {
+    width: 35%;
+    height: 30%;
+}
+
+.tabla1,
+.adornos {
+    width: 50%;
+}
+
+.tblde {
+    padding-left: 20%;
+}
+
+.tbliz {
+    padding-right: 40%;
+}
+
+.sabores {
+    padding-left: 50%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+    color: rgb(5, 78, 133);
+}
+
+.primeraparte {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.primeraparte>div {
+    width: 40%;
+}
+
+.opciones {
+    margin-left: 5%;
+}
+
+.textadorno {
+    text-align: justify;
+    padding-right: 5%;
+    font-weight: lighter;
+}
+
+.formdatoscliente {
+    position: relative;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 1%;
+}
+
+.admin {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+
+
+/*media queries
+@media(max-width:600px){
+    .sabores{
+        background-color: blue;
+    }
+}
+
+.colorRojo {
+    color: red;
+}
+
+.colorRGB {
+    color: rgb(93, 113, 218);
+}
+
+.colorRGBA {
+    color: rgba(93, 217, 94, 0.6);
+}
+
+.colorHEX {
+    color: #EE43E3;
+}
+
+.colorHSL {
+    color: hsl(30, 68%, 31%);
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+p {
+    color: red;
+    text-align: center;
+}
+
+#titulo {
+    color: rgb(200, 150, 220);
+    text-align: right;
+}
+
+.izquierda {
+    color: green;
+}
+
+p.izquierda {
+    text-decoration: underline;
+    text-align: left;
+}
+
+.contraste {
+    background-color: black;
+}
+
+h1,
+h2,
+p {
+    font-weight: bold;
+}
+
+style="padding-left: 70px"><img src="TORTAL.png" alt="TORTA LUNES" width="180px" height="250px"
+/* Comentario CSS */

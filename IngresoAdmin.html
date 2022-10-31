@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css-estilos.css">
+    <title>NuestrosPasteles</title>
+</head>
+
+<body>
+    <header>
+        <h2 style="text-align: center">Ingreso a consumibles e insumos</h1>
+            <hr>
+    </header>
+    <section>
+        <form action="" id="form2" method="post" class="formdatoscliente">
+            <label for="nombre">Nombre usuario: (Tal y como te registraste)</label><br>
+            <input type="text" id="nombreuser" name="nombreuser"><br><br>
+
+            <label for="psw1">Contraseña:</label><br>
+            <input type="password" id="psw1" name="psw1"><br><br>
+
+            <label for="roles">Indica tu rol:</label><br>
+            <input list="rol">
+            <datalist id="rol">
+            <option value="Usuario1">
+            <option value="Usuario2">
+            <option value="Usuario3">
+            </datalist><br><br>
+
+            <a href="VistaAdmin.html" target="_self"><input type="button" id="ingvista" name="ingvista" value="Ingresar"></a><br>
+            <input type="reset">
+            <h4><a href="OlvidoContraseña.html" target="_self">¿Olvidaste tu contraseña?</a></h4>
+        </form>
+    </section>
+</body>
+
+</html>

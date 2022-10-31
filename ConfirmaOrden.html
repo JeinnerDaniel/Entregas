@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css-estilos.css">
+    <title>CONFIRMA TU ORDEN</title>
+</head>
+
+<body>
+    <section>
+        <h4><a href="Combinaciones.html" target="_self">Volver</a></h4>
+    </section>
+    <header>
+        <h2 class="pedido">CONFIRMA TU PEDIDO</h1>
+            <hr>
+    </header>
+    <section>
+        <h2 class="pedido">TUS DATOS</h2>
+        <form action="" id="form1" method="post" class="formdatoscliente">
+            <label for="nombre">Nombre: (Incluye por lo menos un appellido)</label><br>
+            <input type="text" id="nombre" name="nombre"><br><br>
+            <label for="nombre">Teléfono:</label><br>
+            <input type="number" id="tel" name="tel" maxlength="10"><br><br>
+            <label for="nombre">Correo electrónico:</label><br>
+            <input type="email" id="correo" name="correo"><br><br>
+            <label for="pedido">Tu pedido:</label><br>
+            <textarea class="textarea" cols="30" rows="5">Tu pedido actual corresponde a: 
+                combinación de torta mastes y viernes
+                combina adorno trozos de galleta con m&m.</textarea>
+            <br>
+            <input type="checkbox" id="privacidad" name="privacidad" value="priv">
+            <label for="privacidad">Acepta las políticas de privacidad y manejo de su información</label><br>
+            <a href="ProcesoPago.html" target="_self"><input type="button" id="pagar" name="pagar" value="Guardar y pagar"></a>
+            <input type="reset">
+        </form>
+
+    </section>
+</body>
+
+</html>
